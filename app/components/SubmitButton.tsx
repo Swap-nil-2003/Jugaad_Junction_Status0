@@ -14,7 +14,7 @@ const { createAlchemyWeb3 } = require("@alch/alchemy-web3");
 const {ethers, JsonRpcProvider} = require('ethers');
  const contract = require("../../artifacts/contracts/MyNFT.sol/MyNFT.json");
 
-const contractAddress="0x01DF690E42e621Bf79E78D952C38e16bc3B497b7";
+const contractAddress="0x12a74Cc9Acae03e136C826606e08cf00dC9C07e2";
 
 
 /*async function TransferNFT(_tokenId,_receiver){
