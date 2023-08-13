@@ -44,7 +44,7 @@ const page = async({params,children,}:
       <div className="w-1/2 font-medium ">
         <h1 className="mb-3">
           <span className="leading-8">Homepage : </span>{" "}
-          <Link href={data.homepage} target="_blank">
+          <Link href={data.homepage} target="_blank" className="underline">
             Link
           </Link>
         </h1>
