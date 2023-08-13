@@ -10,7 +10,7 @@ const web3 = createAlchemyWeb3(API_URL);
 //console.log(JSON.stringify(contract.abi));
 
 //const contractAddress = "0x6FB6Def40ba3f0888da369400CB9750AeFd58E6c";
-const contractAddress="0x01DF690E42e621Bf79E78D952C38e16bc3B497b7";
+const contractAddress="0x12a74Cc9Acae03e136C826606e08cf00dC9C07e2";
 const nftContract = new web3.eth.Contract(contract.abi,contractAddress);
 
 //TRANSACTION
